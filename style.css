@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input,
+select,
+button {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.task {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.low {
+    border-left: 5px solid green;
+}
+
+.medium {
+    border-left: 5px solid orange;
+}
+
+.high {
+    border-left: 5px solid red;
+}
