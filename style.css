@@ -7,10 +7,12 @@ body {
 }
 
 h1 {
+    /* Center the heading */
     text-align: center;
 }
 
 form {
+    /* Organize and style the task-entry form */
     background-color: white;
     border: 1px solid #cccccc;
     padding: 20px;
@@ -29,6 +31,7 @@ button {
 }
 
 .task {
+    /* style individual tasks */
     background-color: white;
     border: 1px solid #cccccc;
     margin-top: 10px;
